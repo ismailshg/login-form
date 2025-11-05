@@ -1,0 +1,138 @@
+/* poppins google font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.box{
+    border: none;
+    box-shadow: 1px 7px 17px -4.7px;
+    width: 380px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+.heading{
+    background-color: rgb(41, 172, 223);
+    line-height: 65px;
+    border-radius: 5px 5px 0 0 ;
+    padding-left: 15px;
+    font-size: 17px;
+    
+}
+
+.box form{
+    padding: 30px 20px 20px 30px;
+    line-height: 30px;
+}
+
+.box form .item{
+   background-color: rgb(255, 255, 255);
+   height: 45px;
+   margin-bottom: 15px;
+
+    
+}
+
+.box form .item input{
+    height: 100%;
+    width: 100%;
+    padding-left: 70px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.4s ease;
+}
+
+.item{
+    position: relative;
+}
+
+.box form .item i{
+    position: absolute;
+    /* top: 15px; */
+    background-color: rgb(41, 172, 223);
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px 0 0 5px;
+
+}
+
+.box form .submit .login{
+    border: 1px solid gray;
+    padding-right: 55px;
+}
+
+
+.box form .submit input{
+    background-color: skyblue;
+    transition: all 0.4s ease;
+}
+
+
+.box form .submit input:hover{
+    background-color: rgb(41, 172, 223);
+    transition: all 0.4s ease;
+}
+
+
+.box form .item input:hover{
+    border: 1px solid rgb(41, 172, 223);
+    transition: all 0.4s ease;
+}
+
+
+.box form .forgotPass a{
+    text-decoration: none;
+    color:rgb(41, 172, 223) ;
+    /* line-height: 2; */
+    transition: all 0.3s ease;
+
+    
+}
+
+.box form .forgotPass{
+    margin: 0 0 10px 0 ;
+}
+
+.box form .signUp{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.box form .signUp a{
+    text-decoration: none;
+    color: rgb(41, 172, 223);
+    transition: all 0.3s ease;
+
+}
+
+
+.box form .forgotPass a:hover{
+    color:rgb(4, 130, 180) ;
+    transition: all 0.3s ease;
+}
+
+.box form .signUp a:hover{
+    color:rgb(4, 130, 180) ;
+    transition: all 0.3s ease;
+}
